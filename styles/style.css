@@ -4,6 +4,61 @@
       font-family: 'Work Sans', sans-serif;
   }
 
+  .btn-primary{
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    color: #FFF;
+    background: #FF900E;
+    padding: 15px 10px;
+    cursor: pointer;
+
+  }
+
   header{
     background: rgba(255, 144, 14, 0.10);
+    padding: 20px 150px;
   }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+  }
+  nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  nav ul a{
+    text-decoration: none;
+    color: #424242;
+  }
+
+  .nav-title{
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+/* banner style*/
+
+.banner-content{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
